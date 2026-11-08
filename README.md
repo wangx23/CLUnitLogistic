@@ -11,8 +11,11 @@ estimators of finite population proportions.
 
 ## Installation
 
+Install the development version from GitHub:
+
 ```r
-devtools::install("CLUnitLogistic")
+# install.packages("remotes")
+remotes::install_github("wangx23/CLUnitLogistic")
 ```
 
 ## Exported functions
