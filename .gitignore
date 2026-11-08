@@ -1,0 +1,43 @@
+# History and session files
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+
+# R package build artifacts
+*.tar.gz
+*.Rcheck/
+..Rcheck/
+/*.Rcheck/
+
+# Example / build output
+/.Rproj.user/
+*.Rproj
+
+# Compiled source
+*.o
+*.so
+*.dll
+*.dylib
+src/*.o
+src/*.so
+src/*.dll
+
+# roxygen / pkgdown / testthat output
+/docs/
+inst/doc/
+/*_cache/
+*_cache/
+
+# Editor and OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~

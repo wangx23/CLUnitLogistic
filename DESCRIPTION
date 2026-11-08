@@ -1,0 +1,19 @@
+Package: CLUnitLogistic
+Type: Package
+Title: Clustered Unit-Level Logistic Models for Small Area Estimation
+Version: 0.1.0
+Authors@R: person("Xin", "Wang", email = "wangxin8923@gmail.com",
+                  role = c("aut", "cre"))
+Description: Fits unit-level logistic mixed models with area-specific random
+    effects in which the area-level regression coefficients are grouped into
+    an unknown number of clusters. Clustering is estimated through a penalized
+    (MCP) fusion penalty solved by an ADMM-type algorithm, with the number of
+    clusters selected by a BIC criterion. The fitted models are used to build
+    model-based small area estimators of finite population proportions from
+    survey data.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5.0)
+Imports: lme4, cluster, flexmix, stats
+RoxygenNote: 7.3.1
